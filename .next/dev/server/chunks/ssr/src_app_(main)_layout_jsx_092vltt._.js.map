@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/anawada/Sites/wit-event/src/app/%28main%29/layout.jsx"],"sourcesContent":["import { Layout } from '@/components/Layout'\n\nexport default function MainLayout({ children }) {\n  return <Layout>{children}</Layout>\n}\n"],"names":["MainLayout","children"],"mappings":";;;;;AAAA;;;AAEe,SAASA,WAAW,EAAEC,QAAQ,EAAE;IAC7C,qBAAO,8OAAC,sIAAM;kBAAEA;;;;;;AAClB"}}]
+}

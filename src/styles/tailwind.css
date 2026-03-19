@@ -1,0 +1,124 @@
+@import 'tailwindcss';
+
+/* Newsletter: subtle motion (respect motion-reduce in components) */
+@keyframes newsletter-breathe {
+  0%,
+  100% {
+    opacity: 0.45;
+  }
+  50% {
+    opacity: 0.85;
+  }
+}
+
+@keyframes newsletter-drift {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  50% {
+    transform: translate3d(-3%, 2%, 0) scale(1.04);
+  }
+}
+
+@keyframes newsletter-headline-glow {
+  0%,
+  100% {
+    opacity: 0.35;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.6;
+    transform: scale(1.12);
+  }
+}
+
+/* Hero + Newsletter: HUD grid + entrance */
+@keyframes tech-grid-drift {
+  to {
+    background-position: 44px 44px;
+  }
+}
+
+@keyframes hero-rise {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 1rem, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes hero-text-shimmer {
+  0%,
+  100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+@theme {
+  /* Women in Tech brand */
+  --color-brand-cyan: #00f0ff;
+  --color-brand-magenta: #ff007a;
+  --color-brand-purple: #2e004f;
+  --color-brand-black: #0b0b0e;
+
+  --text-*: initial;
+  --text-xs: 0.75rem;
+  --text-xs--line-height: 1rem;
+  --text-sm: 0.875rem;
+  --text-sm--line-height: 1.5rem;
+  --text-base: 1rem;
+  --text-base--line-height: 1.5rem;
+  --text-lg: 1.125rem;
+  --text-lg--line-height: 2rem;
+  --text-xl: 1.25rem;
+  --text-xl--line-height: 2rem;
+  --text-2xl: 1.5rem;
+  --text-2xl--line-height: 2.5rem;
+  --text-3xl: 2rem;
+  --text-3xl--line-height: 2.5rem;
+  --text-4xl: 2.5rem;
+  --text-4xl--line-height: 3rem;
+  --text-5xl: 3rem;
+  --text-5xl--line-height: 3.5rem;
+  --text-6xl: 4rem;
+  --text-6xl--line-height: 1;
+  --text-7xl: 5rem;
+  --text-7xl--line-height: 1;
+  --text-8xl: 6rem;
+  --text-8xl--line-height: 1;
+  --text-9xl: 8rem;
+  --text-9xl--line-height: 1;
+
+  --radius-4xl: 2rem;
+  --radius-5xl: 2.5rem;
+
+  --font-sans: var(--font-inter);
+  --font-display: var(--font-dm-sans);
+
+  --container-2xl: 40rem;
+
+  --animate-newsletter-breathe: newsletter-breathe 9s ease-in-out infinite;
+  --animate-newsletter-drift: newsletter-drift 22s ease-in-out infinite;
+  --animate-newsletter-headline-glow: newsletter-headline-glow 7s ease-in-out
+    infinite;
+
+  --animate-tech-grid-drift: tech-grid-drift 75s linear infinite;
+  --animate-hero-rise: hero-rise 0.85s cubic-bezier(0.22, 1, 0.36, 1) both;
+  --animate-hero-text-shimmer: hero-text-shimmer 10s ease-in-out infinite;
+}
+
+/* Subtle cyan grid — pairs with animate-tech-grid-drift */
+@utility bg-tech-grid {
+  background-image:
+    linear-gradient(rgba(0, 240, 255, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 240, 255, 0.04) 1px, transparent 1px);
+  background-size: 44px 44px;
+  background-position: 0 0;
+}
