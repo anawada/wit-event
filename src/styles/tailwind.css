@@ -61,6 +61,18 @@
   }
 }
 
+@keyframes sparkle-drift {
+  0%,
+  100% {
+    opacity: 0.45;
+    transform: translate3d(0, 0, 0) rotate(0deg);
+  }
+  50% {
+    opacity: 0.95;
+    transform: translate3d(6px, -10px, 0) rotate(12deg);
+  }
+}
+
 @theme {
   /* Women in Tech brand */
   --color-brand-cyan: #00f0ff;
@@ -112,6 +124,7 @@
   --animate-tech-grid-drift: tech-grid-drift 75s linear infinite;
   --animate-hero-rise: hero-rise 0.85s cubic-bezier(0.22, 1, 0.36, 1) both;
   --animate-hero-text-shimmer: hero-text-shimmer 10s ease-in-out infinite;
+  --animate-sparkle-drift: sparkle-drift 6s ease-in-out infinite;
 }
 
 /* Subtle cyan grid — pairs with animate-tech-grid-drift */

@@ -58,7 +58,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$clsx$2f$dist
 ;
 ;
 function Button({ className, ...props }) {
-    className = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$clsx$2f$dist$2f$clsx$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"])('inline-flex justify-center rounded-2xl bg-brand-cyan p-4 text-base font-semibold text-brand-black shadow-lg shadow-brand-cyan/25 hover:bg-brand-cyan/90 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-cyan active:text-brand-black/70', className);
+    className = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$clsx$2f$dist$2f$clsx$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"])('inline-flex items-center justify-center rounded-full border-[3px] border-brand-black bg-brand-cyan px-7 py-3.5 text-base font-bold tracking-tight text-brand-black shadow-[5px_5px_0_0] shadow-brand-magenta transition-[transform,box-shadow,background-color] duration-200 ease-[cubic-bezier(0.34,1.56,0.64,1)] hover:-translate-y-1 hover:-rotate-2 hover:bg-brand-cyan hover:shadow-[8px_8px_0_0] hover:shadow-brand-magenta active:translate-y-0 active:rotate-0 active:shadow-[3px_3px_0_0] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-cyan motion-reduce:shadow-lg motion-reduce:shadow-brand-cyan/25 motion-reduce:hover:translate-y-0 motion-reduce:hover:rotate-0 motion-reduce:hover:shadow-lg motion-reduce:active:shadow-lg', className);
     return typeof props.href === 'undefined' ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
         className: className,
         ...props
@@ -267,14 +267,14 @@ function Header() {
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "order-first -mx-4 flex flex-auto basis-full overflow-x-auto border-b border-brand-cyan/20 py-4 font-mono text-sm whitespace-nowrap text-brand-cyan sm:-mx-6 lg:order-0 lg:mx-0 lg:basis-auto lg:border-0 lg:py-0",
+                    className: "order-first -mx-4 flex flex-auto basis-full justify-center overflow-x-auto py-4 sm:-mx-6 lg:order-0 lg:mx-0 lg:basis-auto lg:py-0",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "mx-auto flex items-center gap-4 px-4",
+                        className: "mx-4 flex w-fit max-w-[calc(100vw-2rem)] -rotate-1 items-center gap-3 rounded-full border-2 border-dashed border-brand-magenta/70 bg-brand-purple/50 px-5 py-2.5 font-mono text-sm text-brand-cyan shadow-[4px_4px_0_0] shadow-brand-cyan/25 backdrop-blur-sm sm:mx-auto sm:max-w-none sm:gap-4 sm:px-6 motion-reduce:rotate-0 motion-reduce:shadow-none",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("time", {
                                     dateTime: "2026-06-08",
-                                    children: "08 of June, 2026"
+                                    children: "08 June 2026"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Header.jsx",
                                     lineNumber: 16,
@@ -286,13 +286,14 @@ function Header() {
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$DiamondIcon$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["DiamondIcon"], {
-                                className: "h-1.5 w-1.5 overflow-visible fill-current stroke-current"
+                                className: "h-2 w-2 shrink-0 overflow-visible fill-brand-magenta stroke-brand-magenta motion-reduce:fill-current motion-reduce:stroke-current"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Header.jsx",
                                 lineNumber: 18,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                className: "text-white/90",
                                 children: "Birmingham, UK"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Header.jsx",
@@ -3210,7 +3211,7 @@ function getImageProps(imgProps) {
             "path": ("TURBOPACK compile-time value", "/_next/image"),
             "loader": ("TURBOPACK compile-time value", "default"),
             "dangerouslyAllowSVG": ("TURBOPACK compile-time value", false),
-            "unoptimized": ("TURBOPACK compile-time value", false),
+            "unoptimized": ("TURBOPACK compile-time value", true),
             "domains": ("TURBOPACK compile-time value", []),
             "remotePatterns": ("TURBOPACK compile-time value", []),
             "localPatterns": ("TURBOPACK compile-time value", [
@@ -3218,7 +3219,8 @@ function getImageProps(imgProps) {
                     "pathname": ("TURBOPACK compile-time value", "**"),
                     "search": ("TURBOPACK compile-time value", "")
                 })
-            ])
+            ]),
+            "output": ("TURBOPACK compile-time value", "export")
         })
     });
     // Normally we don't care about undefined props because we pass to JSX,

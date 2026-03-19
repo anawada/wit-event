@@ -20,7 +20,7 @@ export function Newsletter() {
   return (
     <section id="newsletter" aria-label="Register your interest">
       <Container>
-        <div className="relative -mx-4 overflow-hidden bg-brand-purple px-4 py-20 shadow-[inset_0_0_80px_rgba(0,240,255,0.06)] ring-1 ring-brand-cyan/15 sm:-mx-6 sm:px-6 md:mx-0 md:rounded-5xl md:px-16 xl:px-24 xl:py-36">
+        <div className="relative -mx-4 overflow-hidden border-2 border-dashed border-brand-cyan/40 bg-brand-purple px-4 py-20 shadow-[8px_8px_0_0] shadow-brand-magenta/30 sm:-mx-6 sm:px-6 md:mx-0 md:rounded-[2.5rem] md:rounded-br-[3.5rem] md:px-16 md:ring-2 md:ring-brand-magenta/25 xl:px-24 xl:py-36">
           <div aria-hidden className="pointer-events-none absolute inset-0">
             <div className="absolute inset-0 motion-reduce:animate-none animate-newsletter-breathe bg-linear-to-br from-brand-cyan/25 via-transparent to-brand-magenta/20" />
             <div className="absolute -inset-[25%] origin-center motion-reduce:animate-none animate-newsletter-drift bg-linear-to-t from-brand-black/35 via-transparent to-brand-cyan/10" />
@@ -44,10 +44,15 @@ export function Newsletter() {
               </p>
             </div>
             <form className="motion-reduce:animate-none motion-reduce:opacity-100 animate-hero-rise opacity-0 [animation-delay:160ms]">
-              <h3 className="text-lg font-semibold tracking-tight text-white">
-                Your email <span aria-hidden="true">&darr;</span>
+              <h3 className="text-lg font-bold tracking-tight text-white">
+                <span className="inline-block -rotate-1 rounded-lg bg-brand-magenta/25 px-2 py-0.5 text-brand-cyan motion-reduce:rotate-0">
+                  Your email
+                </span>{' '}
+                <span aria-hidden="true" className="text-brand-magenta">
+                  ↓
+                </span>
               </h3>
-              <div className="mt-5 flex rounded-3xl bg-brand-black/70 py-2.5 pr-2.5 shadow-xl shadow-black/40 ring-1 ring-brand-cyan/25 focus-within:ring-2 focus-within:ring-brand-cyan">
+              <div className="mt-5 flex rounded-full border-2 border-brand-black bg-brand-black/80 py-2 pl-2 pr-2 shadow-[5px_5px_0_0] shadow-brand-cyan/40 transition-shadow focus-within:shadow-[7px_7px_0_0] focus-within:shadow-brand-cyan/50">
                 <input
                   type="email"
                   required

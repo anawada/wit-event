@@ -10,13 +10,13 @@ export function Header() {
         <div className="mt-10 lg:mt-0 lg:grow lg:basis-0">
           <Logo className="h-12 w-auto" />
         </div>
-        <div className="order-first -mx-4 flex flex-auto basis-full overflow-x-auto border-b border-brand-cyan/20 py-4 font-mono text-sm whitespace-nowrap text-brand-cyan sm:-mx-6 lg:order-0 lg:mx-0 lg:basis-auto lg:border-0 lg:py-0">
-          <div className="mx-auto flex items-center gap-4 px-4">
+        <div className="order-first -mx-4 flex flex-auto basis-full justify-center overflow-x-auto py-4 sm:-mx-6 lg:order-0 lg:mx-0 lg:basis-auto lg:py-0">
+          <div className="mx-4 flex w-fit max-w-[calc(100vw-2rem)] -rotate-1 items-center gap-3 rounded-full border-2 border-dashed border-brand-magenta/70 bg-brand-purple/50 px-5 py-2.5 font-mono text-sm text-brand-cyan shadow-[4px_4px_0_0] shadow-brand-cyan/25 backdrop-blur-sm sm:mx-auto sm:max-w-none sm:gap-4 sm:px-6 motion-reduce:rotate-0 motion-reduce:shadow-none">
             <p>
-              <time dateTime="2026-06-08">08 of June, 2026</time>
+              <time dateTime="2026-06-08">08 June 2026</time>
             </p>
-            <DiamondIcon className="h-1.5 w-1.5 overflow-visible fill-current stroke-current" />
-            <p>Birmingham, UK</p>
+            <DiamondIcon className="h-2 w-2 shrink-0 overflow-visible fill-brand-magenta stroke-brand-magenta motion-reduce:fill-current motion-reduce:stroke-current" />
+            <p className="text-white/90">Birmingham, UK</p>
           </div>
         </div>
         <div className="hidden sm:mt-10 sm:flex lg:mt-0 lg:grow lg:basis-0 lg:justify-end">

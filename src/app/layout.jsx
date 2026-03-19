@@ -30,13 +30,13 @@ export default function RootLayout({ children }) {
     <html
       lang="en"
       className={clsx(
-        'h-full bg-brand-black text-white antialiased',
+        'h-full bg-brand-black font-sans text-white antialiased',
         inter.variable,
         dmSans.variable,
       )}
       suppressHydrationWarning
     >
-      <body className="flex min-h-full" suppressHydrationWarning>
+      <body className="flex min-h-full font-sans" suppressHydrationWarning>
         <div className="flex w-full flex-col">{children}</div>
       </body>
     </html>

@@ -34,6 +34,8 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$BackgroundImage$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/BackgroundImage.jsx [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Button$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/Button.jsx [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Container$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/Container.jsx [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$HeroSparkles$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/HeroSparkles.jsx [app-rsc] (ecmascript)");
+;
 ;
 ;
 ;
@@ -46,7 +48,7 @@ function Hero() {
                 className: "-top-36 -bottom-14 z-0"
             }, void 0, false, {
                 fileName: "[project]/src/components/Hero.jsx",
-                lineNumber: 8,
+                lineNumber: 9,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -57,20 +59,20 @@ function Hero() {
                         className: "absolute inset-0 bg-tech-grid opacity-50 motion-reduce:animate-none motion-safe:animate-tech-grid-drift"
                     }, void 0, false, {
                         fileName: "[project]/src/components/Hero.jsx",
-                        lineNumber: 13,
+                        lineNumber: 14,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "absolute inset-0 bg-linear-to-b from-transparent via-transparent to-brand-black/70"
                     }, void 0, false, {
                         fileName: "[project]/src/components/Hero.jsx",
-                        lineNumber: 14,
+                        lineNumber: 15,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/Hero.jsx",
-                lineNumber: 9,
+                lineNumber: 10,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Container$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Container"], {
@@ -78,52 +80,68 @@ function Hero() {
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "mx-auto max-w-2xl lg:max-w-4xl lg:px-12",
                     children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                            "aria-hidden": true,
+                            className: "mb-3 inline-block rounded-full border-2 border-brand-cyan/60 bg-brand-magenta/20 px-4 py-1 font-mono text-xs font-medium tracking-wide text-brand-cyan uppercase motion-reduce:rotate-0 sm:-rotate-2",
+                            children: "Save the date"
+                        }, void 0, false, {
+                            fileName: "[project]/src/components/Hero.jsx",
+                            lineNumber: 19,
+                            columnNumber: 11
+                        }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                            className: "motion-reduce:animate-none motion-reduce:opacity-100 font-display animate-hero-rise text-5xl font-bold tracking-tighter opacity-0 sm:text-7xl",
+                            className: "motion-reduce:animate-none motion-reduce:opacity-100 font-display animate-hero-rise text-5xl font-extrabold tracking-tighter opacity-0 sm:text-7xl",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: "sr-only",
                                     children: "Women in Tech Meetup 2026 — "
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Hero.jsx",
-                                    lineNumber: 19,
+                                    lineNumber: 26,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "bg-size-[220%_auto] bg-linear-to-r from-brand-cyan via-white/85 to-brand-magenta bg-clip-text text-transparent motion-reduce:animate-none motion-safe:animate-hero-text-shimmer",
-                                    children: "Women in Tech Meetup 2026"
+                                    className: "inline-block sm:-rotate-1 motion-reduce:rotate-0",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        className: "bg-size-[220%_auto] bg-linear-to-r from-brand-cyan via-white/85 to-brand-magenta bg-clip-text text-transparent motion-reduce:animate-none motion-safe:animate-hero-text-shimmer",
+                                        children: "Women in Tech Meetup 2026"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/components/Hero.jsx",
+                                        lineNumber: 28,
+                                        columnNumber: 15
+                                    }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Hero.jsx",
-                                    lineNumber: 20,
+                                    lineNumber: 27,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/Hero.jsx",
-                            lineNumber: 18,
+                            lineNumber: 25,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "motion-reduce:animate-none motion-reduce:opacity-100 mt-6 animate-hero-rise space-y-6 font-display text-2xl tracking-tight text-white/90 opacity-0 [animation-delay:90ms]",
+                            className: "motion-reduce:animate-none motion-reduce:opacity-100 mt-6 animate-hero-rise space-y-6 font-display text-2xl leading-snug tracking-tight text-white/90 opacity-0 [animation-delay:90ms]",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     children: "A full day in the heart of Birmingham for professionals who care about technology, leadership, and innovation — with speakers, a panel, networking, catering, and space for stalls and demos."
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Hero.jsx",
-                                    lineNumber: 27,
+                                    lineNumber: 36,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     children: "Join a community shaping one of the most important conversations in our industry. Register your interest and we’ll let you know when tickets and updates go live."
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Hero.jsx",
-                                    lineNumber: 32,
+                                    lineNumber: 41,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/Hero.jsx",
-                            lineNumber: 26,
+                            lineNumber: 35,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Button$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Button"], {
@@ -132,7 +150,7 @@ function Hero() {
                             children: "Register your interest"
                         }, void 0, false, {
                             fileName: "[project]/src/components/Hero.jsx",
-                            lineNumber: 38,
+                            lineNumber: 47,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("dl", {
@@ -155,53 +173,53 @@ function Hero() {
                                     'Birmingham'
                                 ]
                             ].map(([name, value], i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "motion-reduce:animate-none motion-reduce:opacity-100 animate-hero-rise opacity-0",
+                                    className: "motion-reduce:animate-none motion-reduce:opacity-100 motion-reduce:hover:rotate-0 animate-hero-rise rounded-2xl border-2 border-dashed border-brand-cyan/35 bg-brand-purple/25 px-4 py-3 opacity-0 transition-[transform,border-color] duration-200 ease-[cubic-bezier(0.34,1.56,0.64,1)] hover:-rotate-1 hover:border-brand-magenta/50 hover:bg-brand-purple/40 motion-reduce:rotate-0 sm:odd:-rotate-1 sm:even:rotate-1",
                                     style: {
                                         animationDelay: `${260 + i * 70}ms`
                                     },
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("dt", {
-                                            className: "font-mono text-sm text-brand-magenta",
+                                            className: "font-mono text-xs tracking-wider text-brand-magenta uppercase",
                                             children: name
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Hero.jsx",
-                                            lineNumber: 56,
+                                            lineNumber: 65,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("dd", {
-                                            className: "mt-0.5 text-xl font-semibold tracking-tight text-white",
+                                            className: "mt-1 text-lg font-bold tracking-tight text-white sm:text-xl",
                                             children: value
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Hero.jsx",
-                                            lineNumber: 57,
+                                            lineNumber: 68,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, name, true, {
                                     fileName: "[project]/src/components/Hero.jsx",
-                                    lineNumber: 51,
+                                    lineNumber: 60,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/src/components/Hero.jsx",
-                            lineNumber: 44,
+                            lineNumber: 53,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/Hero.jsx",
-                    lineNumber: 17,
+                    lineNumber: 18,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/Hero.jsx",
-                lineNumber: 16,
+                lineNumber: 17,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/Hero.jsx",
-        lineNumber: 7,
+        lineNumber: 8,
         columnNumber: 5
     }, this);
 }
@@ -248,7 +266,7 @@ function Newsletter() {
         "aria-label": "Register your interest",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Container$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Container"], {
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "relative -mx-4 overflow-hidden bg-brand-purple px-4 py-20 shadow-[inset_0_0_80px_rgba(0,240,255,0.06)] ring-1 ring-brand-cyan/15 sm:-mx-6 sm:px-6 md:mx-0 md:rounded-5xl md:px-16 xl:px-24 xl:py-36",
+                className: "relative -mx-4 overflow-hidden border-2 border-dashed border-brand-cyan/40 bg-brand-purple px-4 py-20 shadow-[8px_8px_0_0] shadow-brand-magenta/30 sm:-mx-6 sm:px-6 md:mx-0 md:rounded-[2.5rem] md:rounded-br-[3.5rem] md:px-16 md:ring-2 md:ring-brand-magenta/25 xl:px-24 xl:py-36",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         "aria-hidden": true,
@@ -328,16 +346,25 @@ function Newsletter() {
                                 className: "motion-reduce:animate-none motion-reduce:opacity-100 animate-hero-rise opacity-0 [animation-delay:160ms]",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                        className: "text-lg font-semibold tracking-tight text-white",
+                                        className: "text-lg font-bold tracking-tight text-white",
                                         children: [
-                                            "Your email ",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                "aria-hidden": "true",
-                                                children: "↓"
+                                                className: "inline-block -rotate-1 rounded-lg bg-brand-magenta/25 px-2 py-0.5 text-brand-cyan motion-reduce:rotate-0",
+                                                children: "Your email"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Newsletter.jsx",
                                                 lineNumber: 48,
-                                                columnNumber: 28
+                                                columnNumber: 17
+                                            }, this),
+                                            ' ',
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                "aria-hidden": "true",
+                                                className: "text-brand-magenta",
+                                                children: "↓"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/Newsletter.jsx",
+                                                lineNumber: 51,
+                                                columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
@@ -346,7 +373,7 @@ function Newsletter() {
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "mt-5 flex rounded-3xl bg-brand-black/70 py-2.5 pr-2.5 shadow-xl shadow-black/40 ring-1 ring-brand-cyan/25 focus-within:ring-2 focus-within:ring-brand-cyan",
+                                        className: "mt-5 flex rounded-full border-2 border-brand-black bg-brand-black/80 py-2 pl-2 pr-2 shadow-[5px_5px_0_0] shadow-brand-cyan/40 transition-shadow focus-within:shadow-[7px_7px_0_0] focus-within:shadow-brand-cyan/50",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
                                                 type: "email",
@@ -356,7 +383,7 @@ function Newsletter() {
                                                 className: "-my-2.5 flex-auto bg-transparent pr-2.5 pl-6 text-base text-white placeholder:text-white/45 focus:outline-hidden"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Newsletter.jsx",
-                                                lineNumber: 51,
+                                                lineNumber: 56,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Button$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Button"], {
@@ -367,7 +394,7 @@ function Newsletter() {
                                                         children: "Notify me"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Newsletter.jsx",
-                                                        lineNumber: 59,
+                                                        lineNumber: 64,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -376,24 +403,24 @@ function Newsletter() {
                                                             className: "h-6 w-6"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/Newsletter.jsx",
-                                                            lineNumber: 61,
+                                                            lineNumber: 66,
                                                             columnNumber: 21
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Newsletter.jsx",
-                                                        lineNumber: 60,
+                                                        lineNumber: 65,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/Newsletter.jsx",
-                                                lineNumber: 58,
+                                                lineNumber: 63,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/Newsletter.jsx",
-                                        lineNumber: 50,
+                                        lineNumber: 55,
                                         columnNumber: 15
                                     }, this)
                                 ]
