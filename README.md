@@ -1,16 +1,31 @@
-# React + Vite
+# Women in Tech Meetup 2026 — site
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Next.js app (static export) for the event landing page.
 
-Currently, two official plugins are available:
+## GitHub Pages
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+1. Repo **Settings → Pages**
+2. **Build and deployment → Source**: choose **GitHub Actions** (not “Deploy from a branch”).
+3. Push to `main` (or `master`). The workflow uploads the `out/` folder from `next run build`.
 
-## React Compiler
+If the site URL shows the README or looks broken, the Pages source is almost always still set to a **branch** (GitHub then builds Jekyll from the repo root / `docs` and never uses your Next build).
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Repo is `yourname.github.io`
 
-## Expanding the ESLint configuration
+Use a site at the domain root: remove the `NEXT_PUBLIC_BASE_PATH` env block from `.github/workflows/deploy-pages.yml` before building.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Local
+
+```bash
+npm install
+npm run dev
+```
+
+Static export (same as CI):
+
+```bash
+NEXT_PUBLIC_BASE_PATH=/wit-event npm run build
+npx serve out
+```
+
+Adjust `NEXT_PUBLIC_BASE_PATH` to match your repo name, or leave unset for `/`.
