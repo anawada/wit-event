@@ -1,6 +1,7 @@
 import { BackgroundImage } from '@/components/BackgroundImage'
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
+import { Countdown } from '@/components/Countdown'
 import { HeroSparkles } from '@/components/HeroSparkles'
 
 export function Hero() {
@@ -9,7 +10,7 @@ export function Hero() {
       <BackgroundImage className="-top-36 -bottom-14 z-0" />
       <div
         aria-hidden
-        className="pointer-events-none absolute inset-0 z-[1] overflow-hidden"
+        className="pointer-events-none absolute inset-0 z-1 overflow-hidden"
       >
         <div className="absolute inset-0 bg-tech-grid opacity-50 motion-reduce:animate-none motion-safe:animate-tech-grid-drift" />
         <HeroSparkles />
@@ -19,21 +20,20 @@ export function Hero() {
         <div className="mx-auto max-w-2xl lg:max-w-4xl lg:px-12">
           <p
             aria-hidden
-            className="mb-3 inline-block rounded-full border-2 border-brand-cyan/60 bg-brand-magenta/20 px-4 py-1 font-mono text-xs font-medium tracking-wide text-brand-cyan uppercase motion-reduce:rotate-0 sm:-rotate-2"
+            className="mb-3 inline-block rounded-full border-2 border-brand-cyan/60 bg-brand-magenta/20 px-4 py-1 font-mono text-xs font-medium tracking-wide text-brand-cyan uppercase"
           >
             Save the date
           </p>
           <h1 className="motion-reduce:animate-none motion-reduce:opacity-100 font-display animate-hero-rise text-5xl font-extrabold tracking-tighter opacity-0 sm:text-7xl">
             <span className="sr-only">Women in Tech Meetup 2026 — </span>
-            <span className="inline-block sm:-rotate-1 motion-reduce:rotate-0">
-              <span
-                className="bg-size-[220%_auto] bg-linear-to-r from-brand-cyan via-white/85 to-brand-magenta bg-clip-text text-transparent motion-reduce:animate-none motion-safe:animate-hero-text-shimmer"
-              >
-                Women in Tech Meetup 2026
-              </span>
+            <span className="bg-size-[220%_auto] bg-linear-to-r from-brand-cyan via-white/85 to-brand-magenta bg-clip-text text-transparent motion-reduce:animate-none motion-safe:animate-hero-text-shimmer">
+              Women in Tech Meetup 2026
             </span>
           </h1>
-          <div className="motion-reduce:animate-none motion-reduce:opacity-100 mt-6 animate-hero-rise space-y-6 font-display text-2xl leading-snug tracking-tight text-white/90 opacity-0 [animation-delay:90ms]">
+          <div className="motion-reduce:animate-none motion-reduce:opacity-100 mt-7 flex w-full justify-start animate-hero-rise opacity-0 [animation-delay:120ms] md:mt-9">
+            <Countdown />
+          </div>
+          <div className="motion-reduce:animate-none motion-reduce:opacity-100 mt-8 space-y-6 font-display text-2xl leading-snug tracking-tight text-white/90 animate-hero-rise opacity-0 [animation-delay:200ms] md:mt-10">
             <p>
               A full day in the heart of Birmingham for professionals who care
               about technology, leadership, and innovation — with speakers, a
@@ -47,7 +47,7 @@ export function Hero() {
           </div>
           <Button
             href="#newsletter"
-            className="motion-reduce:animate-none motion-reduce:opacity-100 mt-10 w-full animate-hero-rise opacity-0 [animation-delay:180ms] sm:hidden"
+            className="motion-reduce:animate-none motion-reduce:opacity-100 mt-10 w-full animate-hero-rise opacity-0 [animation-delay:280ms] sm:hidden"
           >
             Register your interest
           </Button>
@@ -60,7 +60,7 @@ export function Hero() {
             ].map(([name, value], i) => (
               <div
                 key={name}
-                className="motion-reduce:animate-none motion-reduce:opacity-100 motion-reduce:hover:rotate-0 animate-hero-rise rounded-2xl border-2 border-dashed border-brand-cyan/35 bg-brand-purple/25 px-4 py-3 opacity-0 transition-[transform,border-color] duration-200 ease-[cubic-bezier(0.34,1.56,0.64,1)] hover:-rotate-1 hover:border-brand-magenta/50 hover:bg-brand-purple/40 motion-reduce:rotate-0 sm:odd:-rotate-1 sm:even:rotate-1"
+                className="motion-reduce:animate-none motion-reduce:opacity-100 animate-hero-rise rounded-2xl border-2 border-dashed border-brand-cyan/35 bg-brand-purple/25 px-4 py-3 opacity-0 transition-[border-color,background-color] duration-200 hover:border-brand-magenta/50 hover:bg-brand-purple/40"
                 style={{ animationDelay: `${260 + i * 70}ms` }}
               >
                 <dt className="font-mono text-xs tracking-wider text-brand-magenta uppercase">

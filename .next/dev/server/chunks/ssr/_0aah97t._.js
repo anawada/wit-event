@@ -58,20 +58,20 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$clsx$2f$dist
 ;
 ;
 function Button({ className, ...props }) {
-    className = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$clsx$2f$dist$2f$clsx$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"])('inline-flex items-center justify-center rounded-full border-[3px] border-brand-black bg-brand-cyan px-7 py-3.5 text-base font-bold tracking-tight text-brand-black shadow-[5px_5px_0_0] shadow-brand-magenta transition-[transform,box-shadow,background-color] duration-200 ease-[cubic-bezier(0.34,1.56,0.64,1)] hover:-translate-y-1 hover:-rotate-2 hover:bg-brand-cyan hover:shadow-[8px_8px_0_0] hover:shadow-brand-magenta active:translate-y-0 active:rotate-0 active:shadow-[3px_3px_0_0] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-cyan motion-reduce:shadow-lg motion-reduce:shadow-brand-cyan/25 motion-reduce:hover:translate-y-0 motion-reduce:hover:rotate-0 motion-reduce:hover:shadow-lg motion-reduce:active:shadow-lg', className);
+    className = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$clsx$2f$dist$2f$clsx$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"])('inline-flex items-center justify-center rounded-full border-[3px] border-brand-black bg-brand-cyan px-7 py-3.5 text-base font-bold tracking-tight text-brand-black', 'shadow-[5px_5px_0_0_rgb(255_0_122),inset_0_1px_0_rgb(255_255_255/0.35),0_0_20px_rgb(0_240_255/0.4)]', 'transition-[transform,box-shadow,background-color] duration-200 ease-[cubic-bezier(0.34,1.56,0.64,1)]', 'hover:-translate-y-1 hover:-rotate-2 hover:bg-brand-cyan', 'hover:shadow-[8px_8px_0_0_rgb(255_0_122),inset_0_1px_0_rgb(255_255_255/0.42),0_0_26px_rgb(0_240_255/0.48)]', 'active:translate-y-0 active:rotate-0', 'active:shadow-[3px_3px_0_0_rgb(255_0_122),inset_0_1px_0_rgb(255_255_255/0.28)]', 'focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brand-cyan', 'motion-reduce:hover:translate-y-0 motion-reduce:hover:rotate-0', 'motion-reduce:shadow-[5px_5px_0_0_rgb(255_0_122),inset_0_1px_0_rgb(255_255_255/0.3),0_0_16px_rgb(0_240_255/0.35)]', 'motion-reduce:hover:shadow-[5px_5px_0_0_rgb(255_0_122),0_0_18px_rgb(0_240_255/0.38)]', 'motion-reduce:active:shadow-[3px_3px_0_0_rgb(255_0_122)]', className);
     return typeof props.href === 'undefined' ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
         className: className,
         ...props
     }, void 0, false, {
         fileName: "[project]/src/components/Button.jsx",
-        lineNumber: 11,
+        lineNumber: 22,
         columnNumber: 5
     }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
         className: className,
         ...props
     }, void 0, false, {
         fileName: "[project]/src/components/Button.jsx",
-        lineNumber: 13,
+        lineNumber: 24,
         columnNumber: 5
     }, this);
 }

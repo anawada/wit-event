@@ -20,10 +20,9 @@ export function Newsletter() {
   return (
     <section id="newsletter" aria-label="Register your interest">
       <Container>
-        <div className="relative -mx-4 overflow-hidden border-2 border-dashed border-brand-cyan/40 bg-brand-purple px-4 py-20 shadow-[8px_8px_0_0] shadow-brand-magenta/30 sm:-mx-6 sm:px-6 md:mx-0 md:rounded-[2.5rem] md:rounded-br-[3.5rem] md:px-16 md:ring-2 md:ring-brand-magenta/25 xl:px-24 xl:py-36">
+        <div className="relative -mx-4 overflow-hidden border-2 border-dashed border-brand-cyan/40 bg-brand-purple px-4 py-20 shadow-[8px_8px_0_0] shadow-brand-magenta/30 sm:-mx-6 sm:px-6 md:mx-0 md:rounded-5xl md:rounded-br-[3.5rem] md:px-16 md:ring-2 md:ring-brand-magenta/25 xl:px-24 xl:py-36">
           <div aria-hidden className="pointer-events-none absolute inset-0">
             <div className="absolute inset-0 motion-reduce:animate-none animate-newsletter-breathe bg-linear-to-br from-brand-cyan/25 via-transparent to-brand-magenta/20" />
-            <div className="absolute -inset-[25%] origin-center motion-reduce:animate-none animate-newsletter-drift bg-linear-to-t from-brand-black/35 via-transparent to-brand-cyan/10" />
             <div className="absolute inset-0 bg-tech-grid opacity-35 mix-blend-screen motion-reduce:animate-none motion-safe:animate-tech-grid-drift" />
           </div>
           <div className="relative mx-auto grid max-w-2xl grid-cols-1 gap-x-32 gap-y-14 xl:max-w-none xl:grid-cols-2">
@@ -45,22 +44,22 @@ export function Newsletter() {
             </div>
             <form className="motion-reduce:animate-none motion-reduce:opacity-100 animate-hero-rise opacity-0 [animation-delay:160ms]">
               <h3 className="text-lg font-bold tracking-tight text-white">
-                <span className="inline-block -rotate-1 rounded-lg bg-brand-magenta/25 px-2 py-0.5 text-brand-cyan motion-reduce:rotate-0">
+                <label
+                  htmlFor="newsletter-email"
+                  className="inline-block cursor-pointer rounded-lg bg-brand-magenta/25 px-2 py-0.5 font-mono text-sm text-brand-cyan"
+                >
                   Your email
-                </span>{' '}
-                <span aria-hidden="true" className="text-brand-magenta">
-                  ↓
-                </span>
+                </label>
               </h3>
               <div className="mt-5 flex rounded-full border-2 border-brand-black bg-brand-black/80 py-2 pl-2 pr-2 shadow-[5px_5px_0_0] shadow-brand-cyan/40 transition-shadow focus-within:shadow-[7px_7px_0_0] focus-within:shadow-brand-cyan/50">
                 <input
+                  id="newsletter-email"
                   type="email"
                   required
                   placeholder="Email address"
-                  aria-label="Email address"
-                  className="-my-2.5 flex-auto bg-transparent pr-2.5 pl-6 text-base text-white placeholder:text-white/45 focus:outline-hidden"
+                  className="-my-2.5 min-w-0 flex-auto bg-transparent pr-2.5 pl-6 text-base text-white placeholder:text-white/45 focus:outline-hidden"
                 />
-                <Button type="submit">
+                <Button type="submit" className="shrink-0">
                   <span className="sr-only sm:not-sr-only">Notify me</span>
                   <span className="sm:hidden">
                     <ArrowRightIcon className="h-6 w-6" />
